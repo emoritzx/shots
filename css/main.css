@@ -1,0 +1,23 @@
+#shots-container {
+  width:      100%;
+  text-align: center;
+  padding:    0;
+  border:     none;
+  margin-top: 4em;
+}
+
+[data-shots-row] > img {
+    opacity: 0.95;
+    filter: alpha(opacity=95);
+    cursor: pointer;
+    padding-top: 50px;
+    vertical-align: top;
+}
+
+[data-shots-row] > img:hover {
+    padding-top: 0;
+}
+
+[data-shots-row="2"] {
+    margin-top: -100px;
+}
